@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cass PM2.5 Airsync Redirect</title>
+    <script type="text/javascript">
+        function redirect() {
+            var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+
+            // Check for iOS
+            if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+                window.location.href = "https://apps.apple.com/th/app/%E0%B8%9D-%E0%B8%99-pm2-5-%E0%B8%A0%E0%B8%B2%E0%B8%84%E0%B8%AD-%E0%B8%AA%E0%B8%B2%E0%B8%99/id6480331074"; // Replace with your iOS app URL
+            }
+            // Check for Android
+            else if (/android/i.test(userAgent)) {
+                window.location.href = "https://play.google.com/store/apps/details?id=com.billowdev.pm_air_pollution_north_east_thailand&pcampaignid=web_share"; // Replace with your Android app URL
+            }
+            // Default redirect
+            else {
+                window.location.href = "https://cass-airsync.rapidstellar.com/app"; // Optional: Replace with a default URL
+            }
+        }
+    </script>
+</head>
+<body onload="redirect()">
+    <p>Redirecting... to the cass application</p>
+    <p>The development of the "ฝุ่น PM2.5 ภาคอีสาน" (ESAN Air Sync) mobile application is part of the research project "Development of PM2.5 Dispersion Models in Vertical and Horizontal Directions Using Satellite Data and Ground Data in the Northeastern Region of Thailand to Assess the Risk of Respiratory Diseases." This project is funded by Sakon Nakhon Rajabhat University.
+        This application will display the concentration of PM2.5 particles and the altitude level of PM2.5 particles in the atmosphere. It will send notification messages to users' mobile phones when the concentration of PM2.5 particles exceeds the standard value. This will lead to an assessment of the risk of respiratory diseases, providing guidance on preventing risks associated with PM2.5 particles.</p>
+</body>
+</html>
