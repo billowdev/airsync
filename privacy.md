@@ -1,3 +1,6 @@
+<img src="./public/icon.png" alt="App Logo" width="25%" class="logo"> 
+<br /><br />
+
 # ฝุ่น PM 2.5 **Privacy Policy**
 
 Kannikar Kamolrat built the ฝุ่น PM2.5 ภาคอีสาน app as a Free app. This SERVICE is provided by Kannikar Kamolrat at no cost and is intended for use as is.

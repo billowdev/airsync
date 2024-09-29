@@ -1,3 +1,6 @@
+<img src="./public/icon.png" alt="App Logo" width="25%" class="logo"> 
+<br /><br />
+
 <div className="support-page bg-gray-100 min-h-screen py-8 px-4 sm:px-6 lg:px-8">
   <h1 className="text-3xl font-bold mb-4">Support</h1>
   <p className="text-gray-700 mb-8">
